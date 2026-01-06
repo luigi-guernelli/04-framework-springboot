@@ -20,6 +20,6 @@ GET http://localhost:8080/api/                   → "Benvenuto..." <br>
 GET http://localhost:8080/api/ciao/Luca          → "Ciao, Luca!" <br>
 GET http://localhost:8080/api/saluta?nome=Anna   → "Buongiorno, Anna! ..." <br><br>
 POST http://localhost:8080/api/eco
-
+----
 Body JSON: {"testo": "Ciao Spring Boot!"}
 → "Hai detto: Ciao Spring Boot!"
